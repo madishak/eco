@@ -1,0 +1,125 @@
+header{
+    background: #171323;
+
+}
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__link {
+    /*margin: auto o;*/
+    font-size: 25px;
+}
+.author__name {
+    font-size: 18px;
+}
+.slogan {
+    background: white;
+}
+.slogan__headline {
+    padding: 30px 0 20px;
+    width: 100%;
+    margin: 0 35%;
+    font-size: 40px;
+    color: #1AAF67;
+}
+
+.slogan__text {
+    color: #767676;
+    text-align: center;
+    line-height: 27px;
+    font-size: 18px;
+    margin: 0 6%;
+    display: block;
+    width: 100%;
+}
+
+.slogan__text-en {
+    margin: 0 9%;
+}
+
+.list__headline {
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.list__box {
+    display: flex;
+    border-top: 2px solid #e3e3e3;
+    padding-top: 20px;
+    /*justify-content: space-between;*/
+}
+
+.list__icon-lock {
+    background: transparent url("img/lock__list.png") center center no-repeat;
+    height: 32px;
+    width: 32px;
+}
+.list__title {
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+.list__item {
+    font-size: 18px;
+    color: #767676;
+}
+.list__item-link {
+    color: #767676;
+}
+.list__item-strong {
+    font-size: 20px;
+    color: #767676;
+}
+
+.list__link-test {
+    display: block;
+    font-size: 20px;
+    color: #767676;
+    margin-bottom:20px;
+}
+/*.calc__box {*/
+    /*background: #D39832;*/
+/*}*/
+
+.calc__caption {
+    font-size: 20px;
+}
+
+ .form__input:focus {
+    box-shadow:0 0 10px rgba(26, 175, 103, 1);
+
+}
+.form__btn:focus {
+    outline: none;
+}
+.socials-wrapper {
+    display: flex;
+   justify-content: flex-end;
+    font-size: 1.6rem;
+}
+
+.social__title {
+    font-size: 20px;
+}
+
+
+
+
+.cid-qNNrVCA2fK .counter-container ol li:before {
+    position: absolute;
+    left: 0px;
+    margin-top: -10px;
+    counter-increment: myCounter;
+    content: counter(myCounter);
+    display: inline-block;
+    text-align: center;
+    margin: 5px 10px;
+    line-height: 60px;
+    transition: all .2s;
+    color: #ffffff;
+    background: #1AAF67;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 28px;
+}
